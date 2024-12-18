@@ -24,7 +24,7 @@ const Hero = () => {
             aria-label="BOOK A CALL"
           >
             <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
+              className="hidden rounded-md border-2 border-[#BBD0F5] py-2 px-4 text-[14px] font-semibold text-[#BBD0F5] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
               BOOK A CALL
@@ -32,14 +32,14 @@ const Hero = () => {
           </Link>
         </div>
 
-        <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
+        <div className="flex gap-10 text-[#BBD0F5] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
             href="https://github.com/victorcodess"
             target="_blank"
             aria-label="View GitHub Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
               GH
@@ -51,7 +51,7 @@ const Hero = () => {
             aria-label="View LinkedIn Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
               LN
@@ -63,7 +63,7 @@ const Hero = () => {
             aria-label="View Twitter Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
               TW
@@ -75,7 +75,7 @@ const Hero = () => {
             aria-label="View Contra Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
               CO
@@ -84,27 +84,15 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
+      <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-18 lg:py-24">
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
-            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            title="HEY, I'M ROHIT."
+            style="text-9xl inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
-          <motion.div
-            className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
-            variants={imageAnimation}
-          >
-            <Image
-              src={profile}
-              priority
-              alt="Victor's headshot"
-              data-blobity-tooltip="Giga Chad"
-              data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
-            />
-          </motion.div>
+
         </div>
       </div>
 
@@ -117,7 +105,7 @@ const Hero = () => {
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
+          <p className="z-50 text-center text-[16px] font-medium text-[#BBD0F5] md:text-[20px] lg:text-left">
             Frontend Engineer and Web Designer, prev at{" "}
             <Link
               href="https://www.korahq.com/"
@@ -135,7 +123,7 @@ const Hero = () => {
           className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
-          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
+          <p className="text-right text-[16px] font-semibold text-[#BBD0F5] md:text-[20px]">
             Focused on interfaces and experiences, working remotely from Lagos,
             Nigeria.
           </p>

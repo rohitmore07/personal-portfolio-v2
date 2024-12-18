@@ -2,7 +2,7 @@ export const initialBlobityOptions = {
     licenseKey: "opensource",
     focusableElementsOffsetX: 5,
     focusableElementsOffsetY: 5,
-    color: "#e4ded7",
+    color: "#BBD0F5",
     dotColor: "#0e1016",
     invert: true,
     focusableElements:

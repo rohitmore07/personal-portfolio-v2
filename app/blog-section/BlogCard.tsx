@@ -54,7 +54,7 @@ const BlogCard = ({ title, image, url, date, available, index }: blogProps) => {
             >
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className=" w-[16px] rounded-full bg-[#0E1016] p-3 text-[16px] text-[#fff] md:w-[20px] md:text-[20px] lg:w-[18px] lg:p-4 lg:text-[18px]"
+                className=" w-[16px] rounded-full bg-[#0E1016] p-3 text-[16px] text-[#BBD0F5] md:w-[20px] md:text-[20px] lg:w-[18px] lg:p-4 lg:text-[18px]"
                 data-blobity
                 data-blobity-radius="30"
                 data-blobity-offset-x="4"

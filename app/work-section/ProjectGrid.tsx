@@ -7,10 +7,10 @@ const ProjectGrid = () => {
 
   return (
     <>
-      {/* <div className="mb-10 flex gap-16 text-[#e4ded7] md:mb-16  lg:mb-20 ">
+      {/* <div className="mb-10 flex gap-16 text-[#BBD0F5] md:mb-16  lg:mb-20 ">
         <h4
           className={`text-[16px] md:text-[20px] lg:text-[24px] ${
-            filter ? "text-[#e4ded7]" : "text-[#e4ded7]/30"
+            filter ? "text-[#BBD0F5]" : "text-[#BBD0F5]/30"
           }`}
           onClick={() => setFilter(true)}
         >
@@ -18,7 +18,7 @@ const ProjectGrid = () => {
         </h4>{" "}
         <h4
           className={`text-[16px] md:text-[20px] lg:text-[24px] ${
-            filter ? "text-[#e4ded7]/30" : "text-[#e4ded7]"
+            filter ? "text-[#BBD0F5]/30" : "text-[#BBD0F5]"
           }`}
           onClick={() => setFilter(false)}
         >
