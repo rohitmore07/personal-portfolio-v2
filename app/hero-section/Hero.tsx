@@ -89,8 +89,8 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="HEY, I'M ROHIT."
-            style="text-9xl inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            title="Hey, I'm Rohit."
+            style="word-spacing-[64px] text-9xl inline-block overflow-hidden pt-1 -mr-1 sm:-mr-5 md:-mr-7 lg:-mr-2 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-0"
           />
 
         </div>
