@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#BBD0F5] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/rohitmore07"
             target="_blank"
             aria-label="View GitHub Profile"
           >
@@ -42,11 +42,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
-              GH
+              Github
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/rohitmore07/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -54,11 +54,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              Linkedin
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com/rohittmore"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -66,11 +66,11 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
+              Twitter
             </motion.p>
           </Link>
           <Link
-            href="https://contra.com/victorwilliams"
+            href="https://behance.net/rohitmore07"
             target="_blank"
             aria-label="View Contra Profile"
           >
@@ -78,7 +78,7 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              Behance
             </motion.p>
           </Link>
         </div>
