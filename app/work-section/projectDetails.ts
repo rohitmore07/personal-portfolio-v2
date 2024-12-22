@@ -14,9 +14,9 @@ export const devProjects = [
     id: 0,
     name: "Velura UI",
     description:
-      "Portfolio website for Michael Odunsi, an experienced UI/UX designer crafting unique, user-friendly products and web experiences for Web3 founders and projects.",
+      "Velura UI is a sleek, responsive UI library with customizable components for building modern web applications.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/odunsi-web3-folio",
+    github: "https://github.com/rohitmore07/odunsi-web3-folio",
     demo: "https://www.odunsi.xyz/",
     image: require(".//../../public/projects/odunsi.png"),
     available: true,
