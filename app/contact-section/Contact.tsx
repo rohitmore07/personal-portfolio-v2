@@ -23,13 +23,8 @@ const Contact = () => {
           <AnimatedWords2
             title={"Let's Talk"}
             style={
-              "flex max-w-[500px] flex-col items-start text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#BBD0F5] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[170px] md:text-[200px] lg:text-center lg:text-[270px] xl:text-[390px]"
+              "flex max-w-[300px] flex-col items-start text-left text-[100px] font-extrabold uppercase leading-[0.9em] text-[#BBD0F5] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[170px] md:text-[150px] lg:text-center lg:text-[200px] xl:text-[250px]"
             }
-          />
-          <Image
-            src={heartIcon}
-            alt="Heart Icon"
-            className="heartbeat md:-bottom-18 absolute -bottom-5 left-64 w-[120px] sm:-bottom-14 sm:left-[40%] md:left-[40%] md:w-[150px] lg:-bottom-16 lg:left-[42%] lg:w-[230px]"
           />
         </div>
 
@@ -62,7 +57,7 @@ const Contact = () => {
                 }
               />
               <Link
-                href="https://cal.com/victorwilliams/30min"
+                href="https://calendly.com/cserohitmore"
                 target="_blank"
                 aria-label="Send me an email"
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
@@ -75,14 +70,14 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="flex gap-10 text-[16px] font-bold text-[#BBD0F5]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+          <div className="flex gap-7 text-[16px] font-bold text-[#BBD0F5]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link
               href="https://github.com/rohitmore07"
               target="_blank"
               aria-label="View GitHub Profile"
             >
               <AnimatedTitle
-                text={"GH"}
+                text={"Github"}
                 className={
                   "text-[16px] font-bold text-[#BBD0F5] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
@@ -91,12 +86,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+              href="https://www.linkedin.com/in/rohitmore07/"
               target="_blank"
               aria-label="View LinkedIn Profile"
             >
               <AnimatedTitle
-                text={"LN"}
+                text={"Linkedin"}
                 className={
                   "text-[16px] font-bold text-[#BBD0F5] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
@@ -110,7 +105,7 @@ const Contact = () => {
               aria-label="View Twitter Profile"
             >
               <AnimatedTitle
-                text={"TW"}
+                text={"Twitter"}
                 className={
                   "text-[16px] font-bold text-[#BBD0F5] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
@@ -119,26 +114,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/victorwill__/"
-              target="_blank"
-              aria-label="View Instagram Profile"
-            >
-              <AnimatedTitle
-                text={"IG"}
-                className={
-                  "text-[16px] font-bold text-[#BBD0F5] sm:text-[20px] md:text-[16px] lg:text-[28px]"
-                }
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-              />
-            </Link>
-            <Link
-              href="https://blog.victorwilliams.me/"
+              href="https://hashnode.com/@rohitmore07"
               target="_blank"
               aria-label="View Hashnode Profile"
             >
               <AnimatedTitle
-                text={"HN"}
+                text={"Hashnode"}
                 className={
                   "text-[16px] font-bold text-[#BBD0F5] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
