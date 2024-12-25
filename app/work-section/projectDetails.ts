@@ -16,20 +16,20 @@ export const devProjects = [
     description:
       "Velura UI is a sleek, responsive UI library with customizable components for building modern web applications.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/rohitmore07/odunsi-web3-folio",
-    demo: "https://www.odunsi.xyz/",
-    image: require(".//../../public/projects/odunsi.png"),
+    github: "https://github.com/rohitmore07/velura-ui",
+    demo: "https://velura-ui.vercel.app/",
+    image: require(".//../../public/projects/velura.png"),
     available: true,
   },
   {
     id: 1,
-    name: "Interlock",
+    name: "Movie Orbit",
     description:
-      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
+      "Movie Orbit is a web application that lets users explore upcoming movies, trending movies and movies by genre.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/interlock",
-    demo: "https://interlock-teal.vercel.app/",
-    image: require(".//../../public/projects/interlock.png"),
+    github: "https://github.com/rohitmore07/movie-orbit",
+    demo: "https://movie-orbit.vercel.app/",
+    image: require(".//../../public/projects/movieorbit.png"),
     available: true,
   },
   {
