@@ -34,13 +34,13 @@ export const devProjects = [
   },
   {
     id: 2,
-    name: "Synthetix",
+    name: "Gitstatz",
     description:
-      "Built specifically for an AI startup, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
+      "Online platform that delivers comprehensive insights into GitHub user profiles. Featuring a straightforward and user-friendly design, it includes an inviting landing page and a specialized analysis section, allowing users to explore detailed metrics and information on GitHub accounts.",
     technologies: ["React", "Next.js", "Prismic CMS"],
     github: "https://github.com/victorcodess/synthetix",
     demo: "https://synthetix-iota.vercel.app/",
-    image: require(".//../../public/projects/synthetix-flip.png"),
+    image: require(".//../../public/projects/gitstatz.png"),
     available: true,
   },
   {
