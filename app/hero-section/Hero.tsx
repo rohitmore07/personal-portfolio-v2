@@ -1,15 +1,15 @@
-import Link from "next/link";
+import Link from "next/link"; 
 import Image from "next/image";
 import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/photo.jpg";
 
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
+      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover bg-center py-0 sm:h-[90vh] md:h-[100vh] 3xl:h-[85vh]"
       id="home"
       initial="initial"
       animate="animate"
@@ -24,7 +24,7 @@ const Hero = () => {
             aria-label="BOOK A CALL"
           >
             <motion.button
-              className="hidden rounded-md border-2 border-[#BBD0F5] py-2 px-4 text-[14px] font-semibold text-[#BBD0F5] sm:block  md:text-[16px] lg:block"
+              className="hidden rounded-md border-2 border-[#BBD0F5] py-2 px-4 text-[14px] font-semibold text-[#BBD0F5] sm:block md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
               BOOK A CALL
@@ -72,7 +72,7 @@ const Hero = () => {
           <Link
             href="https://behance.net/rohitmore07"
             target="_blank"
-            aria-label="View Contra Profile"
+            aria-label="View Behance Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#BBD0F5] md:text-[16px]"
@@ -84,6 +84,34 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Circular profile image */}
+      <div className="absolute top-[30%] left-40 flex h-42 w-40 rounded-full overflow-hidden border-4 border-[#BBD0F5] lg:top-[40%]">
+        <motion.div
+          className="relative flex h-full w-full"
+          variants={imageAnimation}
+          whileHover={{
+            filter: "grayscale(0%)",
+            scale: 1.1,
+            rotate: 3,
+          }}
+          initial={{
+            filter: "grayscale(100%)",
+          }}
+          transition={{ duration: 0.5 }}
+        >
+          <Image
+            src={profile}
+            alt="Rohit's Profile"
+            layout="intrinsic"
+            width={1920} 
+            height={1280} 
+            objectFit="cover"
+            objectPosition="center"
+            className="h-full w-full"
+          />
+        </motion.div>
+      </div>
+
       <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-18 lg:py-24">
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
@@ -92,7 +120,6 @@ const Hero = () => {
             title="Hey, I'm Rohit."
             style="word-spacing-[64px] text-9xl inline-block overflow-hidden pt-1 -mr-1 sm:-mr-5 md:-mr-7 lg:-mr-2 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-0"
           />
-
         </div>
       </div>
 
@@ -102,7 +129,7 @@ const Hero = () => {
       md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
         <motion.div
-          className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
+          className="max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#BBD0F5] md:text-[20px] lg:text-left">
@@ -111,7 +138,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div
-          className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
+          className="hidden max-w-[500px] lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#BBD0F5] md:text-[20px]">
