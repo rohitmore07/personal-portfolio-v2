@@ -84,33 +84,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Circular profile image */}
-      <div className="absolute top-[30%] left-40 flex h-42 w-40 rounded-full overflow-hidden border-4 border-[#BBD0F5] lg:top-[40%]">
-        <motion.div
-          className="relative flex h-full w-full"
-          variants={imageAnimation}
-          whileHover={{
-            filter: "grayscale(0%)",
-            scale: 1.1,
-            rotate: 3,
-          }}
-          initial={{
-            filter: "grayscale(100%)",
-          }}
-          transition={{ duration: 0.5 }}
-        >
-          <Image
-            src={profile}
-            alt="Rohit's Profile"
-            layout="intrinsic"
-            width={1920} 
-            height={1280} 
-            objectFit="cover"
-            objectPosition="center"
-            className="h-full w-full"
-          />
-        </motion.div>
-      </div>
 
       <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-18 lg:py-24">
         <div
