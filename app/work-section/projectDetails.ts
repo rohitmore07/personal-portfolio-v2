@@ -15,7 +15,7 @@ export const devProjects = [
     name: "Velura UI",
     description:
       "Velura UI is a sleek, responsive UI library with customizable components for building modern web applications.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/rohitmore07/velura-ui",
     demo: "https://velura-ui.vercel.app/",
     image: require(".//../../public/projects/velura.png"),
@@ -26,7 +26,7 @@ export const devProjects = [
     name: "Movie Orbit",
     description:
       "Movie Orbit is a web application that lets users explore upcoming movies, trending movies and movies by genre.",
-    technologies: ["React", "Tailwind CSS", "Frame Motion"],
+    technologies: ["React", "Tailwind CSS", "TMDB API"],
     github: "https://github.com/rohitmore07/movie-orbit",
     demo: "https://movie-orbit.vercel.app/",
     image: require(".//../../public/projects/movieorbit.png"),
@@ -37,7 +37,7 @@ export const devProjects = [
     name: "Gitstatz",
     description:
       "An online platform offering detailed insights into GitHub profiles. It features a user-friendly design with an inviting landing page and a dedicated analysis section for exploring detailed metrics.",
-    technologies: ["React", "Next.js", "Prismic CMS"],
+    technologies: ["HTML", "CSS", "TailwindCSS","Javascript"],
     github: "https://github.com/rohitmore07/gitstatz",
     demo: "https://gitstatz.vercel.app/",
     image: require(".//../../public/projects/gitstatz.png"),
@@ -48,7 +48,7 @@ export const devProjects = [
     name: "Image Quarry",
     description:
       "Image Quarry is a React app that uses the Unsplash API to let users search for images. It displays matching photos in a four-column grid layout based on the entered search term.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    technologies: ["React", "Semantic UI", "Unsplash API"],
     github: "https://github.com/rohitmore07/image-quarry",
     demo: "https://image-quarry.vercel.app/",
     image: require(".//../../public/projects/imagequarry.png"),

@@ -26,7 +26,7 @@ const Qualifications = () => {
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-white rounded-full mt-1.5 -left-1.5 border"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  2021-Present
+                  2021-2024
                 </time>
                 <h3 className="text-lg font-semibold text-white">B. Tech Computer Science (AI)</h3>
                 <p className="text-base font-normal text-white">Final Year</p>
@@ -53,10 +53,10 @@ const Qualifications = () => {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Aug-2023 to Nov-2023
                 </time>
-                <h3 className="text-lg font-semibold text-white">Internship Trainee</h3>
+                <h3 className="text-lg font-semibold text-white">ReactJS Intern</h3>
                 <p className="text-white font-semibold">( LTIMindtree )</p>
                 <p className="text-base font-normal text-gray-300">
-                  • Played a key role in developing web applications using HTML, CSS, and JavaScript, with a primary focus on React.js.
+                  • Played a key role in developing web applications using HTML, CSS and JavaScript, with a primary focus on ReactJS.
                   <br />
                   • Actively participated in software development projects, contributing to coding & debugging activities.
                 </p>
