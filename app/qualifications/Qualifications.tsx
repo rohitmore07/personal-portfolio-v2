@@ -1,7 +1,7 @@
 const Qualifications = () => {
   return (
     <section className="bg-[#212531] px-10 py-28 max-w-screen mx-auto">
-      <div className="pt-10 text-center text-4xl font-bold text-white">Qualification</div>
+      <div className="pt-10 text-center text-[60px] font-bold text-[#BBD0F5]">Qualification</div>
       <div className="flex flex-col lg:flex-row justify-center mx-auto lg:ml-64">
         {/* Left Section */}
         <div className="mt-24 lg:mx-auto lg:w-1/2 lg:mt-24">
