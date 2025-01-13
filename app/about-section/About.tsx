@@ -102,7 +102,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "JavaScript (ES6+), React, Next.js, TypeScript, Redux, Git/GitHub."
+                  "JavaScript (ES6+), React, Next.js, TypeScript, Git/GitHub."
                 }
               />
             </div>
