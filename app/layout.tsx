@@ -39,15 +39,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CREATRO",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+      "Frontend Engineer and UI/UX Designer. Focused on interfaces and experiences, working remotely from India.",
+    url: "https://creatro.vercel.app/",
+    siteName: "https://creatro.vercel.app/",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
         width: 1200,
         height: 630,
-        alt: "Victor Williams — Frontend Engineer",
+        alt: "Rohit More — Frontend Engineer",
       },
     ],
     locale: "en-US",
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
+    title: "Rohit More — Frontend Engineer",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Frontend Engineer and UI/UX Designer. Focused on interfaces and experiences, working remotely from India",
     creator: "victorwill__",
     creatorId: "1243720976552144897",
     images: [
