@@ -30,7 +30,7 @@ export const blogDetails = [
       "All About Threejs",
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1698345534192/65831f34-26a6-4525-90ff-9a93f070f9da.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
-    date: "APR 2024",
+    date: "OCT 2023",
     url: "https://rohitmore07.hashnode.dev/all-about-threejs",
     available: true,
   },
@@ -45,9 +45,9 @@ export const blogDetails = [
   {
     title: "10 Free Resources to learn JavaScript",
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1715345723909/c71d9691-fe4c-4302-b1cb-d9dca77a99b5.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
-    date: "MAY 2024",
-    url: "https://dev.to/rohitmore07/10-free-resources-to-learn-javascript-lgc",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1737308432373/b428e1e9-b60f-4fc0-8e34-84324ebaf25f.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    date: "JAN 2025",
+    url: "https://10resourcesjs.hashnode.dev/10-free-resources-to-learn-javascript",
     available: true,
   },
   // {
