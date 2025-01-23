@@ -156,32 +156,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/not-found:app/not-found"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js": {
       "": {
         "id": "(sc_client)/./node_modules/@vercel/analytics/dist/react/index.js",
@@ -204,6 +178,32 @@ self.__RSC_MANIFEST={
         "name": "Analytics",
         "chunks": [
           "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/not-found:app/not-found"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/not-found:app/not-found"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/not-found:app/not-found"
         ],
         "async": false
       }
@@ -630,6 +630,32 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "C:\\Users\\DELL\\Desktop\\Projects Done\\folio-v1\\node_modules\\@vercel\\analytics\\dist\\react\\index.js": {
+    "": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Analytics": {
+      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
+      "name": "Analytics",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
   "C:\\Users\\DELL\\Desktop\\Projects Done\\folio-v1\\node_modules\\next\\dist\\client\\image.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
@@ -678,32 +704,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/not-found:app/not-found"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\DELL\\Desktop\\Projects Done\\folio-v1\\node_modules\\@vercel\\analytics\\dist\\react\\index.js": {
-    "": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Analytics": {
-      "id": "(app-client)/./node_modules/@vercel/analytics/dist/react/index.js",
-      "name": "Analytics",
-      "chunks": [
-        "app/layout:app/layout"
       ],
       "async": false
     }
