@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "CREATRO",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Frontend Engineer and Web Designer, currently at India. Focused on interfaces and experiences, working remotely from Pune, Maharashtra.",
   generator: "Next.js",
   applicationName: "Rohit More",
   keywords: [
@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     "portfolio",
     "frontend developer portfolio",
     "creative developer portfolio",
+    "creatro",
+    "github",
+    "front-end",
+    "nextjs portfolio",
+    "frontend developer portfolio"
   ],
   colorScheme: "dark",
   openGraph: {
