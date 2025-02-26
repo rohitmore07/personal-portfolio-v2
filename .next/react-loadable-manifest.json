@@ -1,1 +1,41 @@
-{}
+{
+  "app\\page.tsx -> ./about-section/About": {
+    "id": "app\\page.tsx -> ./about-section/About",
+    "files": [
+      "static/css/_app-pages-browser_app_about-section_About_tsx.css",
+      "static/chunks/_app-pages-browser_app_about-section_About_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> ./blog-section/BlogGrid": {
+    "id": "app\\page.tsx -> ./blog-section/BlogGrid",
+    "files": [
+      "static/css/_app-pages-browser_app_blog-section_BlogGrid_tsx.css",
+      "static/chunks/_app-pages-browser_app_blog-section_BlogGrid_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> ./contact-section/Contact": {
+    "id": "app\\page.tsx -> ./contact-section/Contact",
+    "files": [
+      "static/css/_app-pages-browser_app_contact-section_Contact_tsx.css",
+      "static/chunks/_app-pages-browser_app_contact-section_Contact_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> ./footer/Footer": {
+    "id": "app\\page.tsx -> ./footer/Footer",
+    "files": [
+      "static/chunks/_app-pages-browser_app_footer_Footer_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> ./work-section/Work": {
+    "id": "app\\page.tsx -> ./work-section/Work",
+    "files": [
+      "static/chunks/_app-pages-browser_app_work-section_Work_tsx.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\components\\react-dev-overlay\\internal\\helpers\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
+    "id": "node_modules\\next\\dist\\client\\components\\react-dev-overlay\\internal\\helpers\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js"
+    ]
+  }
+}
