@@ -12,6 +12,8 @@
 /out/
 
 # production
+.next
+.env.local
 
 # misc
 .DS_Store
