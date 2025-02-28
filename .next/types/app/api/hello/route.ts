@@ -1,4 +1,4 @@
-// File: C:\Users\DELL\Desktop\Projects Done\folio-v1\app\api\hello\route.js
+// File: C:\Users\DELL\Desktop\Projects Done\folio-v1\app\api\hello\route.ts
 import * as entry from '../../../../../app/api/hello/route.js'
 import type { NextRequest } from 'next/server.js'
 
