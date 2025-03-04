@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "CREATRO",
   description:
-    "Frontend Engineer and Web Designer, currently at India. Focused on interfaces and experiences, working remotely from Pune, Maharashtra.",
+    "Frontend Developer and Web Designer, currently at India. Focused on interfaces and experiences, working remotely from Pune, Maharashtra.",
   generator: "Next.js",
   applicationName: "Rohit More",
   keywords: [
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rohit More — Frontend Engineer",
     description:
-      "Frontend Engineer and UI/UX Designer. Focused on interfaces and experiences, working remotely from India",
+      "Frontend Developer and UI/UX Designer. Focused on interfaces and experiences, working remotely from India",
     creator: "victorwill__",
     creatorId: "1243720976552144897",
     images: [

@@ -71,7 +71,7 @@ const Hero = () => {
       <div className="absolute bottom-10 flex items-center justify-center md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between">
         <motion.div className="max-w-[350px] md:max-w-[400px] lg:max-w-[400px]" variants={bodyAnimation}>
           <p className="z-50 text-center text-[16px] font-medium text-[#BBD0F5] md:text-[20px] lg:text-left">
-            Frontend Engineer and UI/UX Designer
+            Frontend Developer and UI/UX Designer
           </p>
         </motion.div>
 
