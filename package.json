@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/runtime": "^7.27.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
@@ -32,9 +33,9 @@
     "scroller-motion": "^1.2.3",
     "semver": "^7.5.2",
     "sharp": "^0.32.6",
+    "tar-fs": "^2.1.2",
     "touch-cli": "^0.0.1",
-    "word-wrap": "^1.2.4",
-    "tar-fs": "^2.1.2"
+    "word-wrap": "^1.2.4"
   },
   "devDependencies": {
     "@types/node": "18.15.0",
