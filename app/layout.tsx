@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     siteName: "https://creatro.vercel.app/",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "https://github.com/rohitmore07/personal-portfolio-v2/blob/bfed58f1f87a9b74bbb80a8b15ed0eff3f88c53c/public/preview.png",
         width: 1200,
         height: 630,
         alt: "Rohit More — Frontend Engineer",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     creator: "rohittmore",
     creatorId: "777",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "https://github.com/rohitmore07/personal-portfolio-v2/blob/bfed58f1f87a9b74bbb80a8b15ed0eff3f88c53c/public/preview.png",
     ],
   },
   robots: {
