@@ -1,6 +1,6 @@
 # Personal Portfolio Website — v1
 
-My name is Rohit More, and I’m a front-end engineer and web designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
+My name is Rohit More, and I’m a front-end engineer and web designer based in India. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
 
 I created this website to showcase my work. I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world.
 
@@ -15,7 +15,7 @@ I created this website to showcase my work. I’m always striving to create some
 Clone the project
 
 ```bash
-  git clone https://github.com/victorcodess/folio-v1
+  git clone https://github.com/rohitmore07/personal-portfolio-v2
 ```
 
 Go to the project directory
@@ -42,12 +42,12 @@ This project is open source, and you are welcome to use the code or parts of the
 
 If you are using the site’s design largely unmodified, please credit me as the designer of the website.
 
-Incase you have any questions or concerns, please feel free to reach out to me on [Twitter.](https://twitter.com/victorwill__) I am always happy to help!
+Incase you have any questions or concerns, please feel free to reach out to me on [Twitter.](https://twitter.com/rohittmore) I am always happy to help!
 
 
 ## Feedback
 
-While I would not be accepting contributions or pull requests at this time, I appreciate your feedback on this project. If you have any suggestions or questions, please don’t hesitate to reach out to me on [Twitter.](https://twitter.com/victorwill__) Your feedback is valuable and will help me improve.
+While I would not be accepting contributions or pull requests at this time, I appreciate your feedback on this project. If you have any suggestions or questions, please don’t hesitate to reach out to me on [Twitter.](https://twitter.com/rohitmore07) Your feedback is valuable and will help me improve.
 
 ## License
 
