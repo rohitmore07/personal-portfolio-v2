@@ -12,6 +12,17 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "InsightIQ",
+    description:
+      "A modern SaaS admin dashboard featuring authentication, user management, analytics and role-based access control.",
+    technologies: ["Next.js", "Typescript", "Tailwind CSS", "Redux Toolkit"],
+    github: "https://github.com/rohitmore07/InsightIQ",
+    demo: "https://insight-iq-admin.vercel.app/dashboard",
+    image: require(".//../../public/projects/insightiq.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "Velura UI",
     description:
       "Velura UI is a sleek, responsive UI library with customizable components for building modern web applications.",
@@ -22,7 +33,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+    id: 2,
     name: "Movie Orbit",
     description:
       "Movie Orbit is a web application that lets users explore upcoming movies, trending movies and movies by genre.",
@@ -30,17 +41,6 @@ export const devProjects = [
     github: "https://github.com/rohitmore07/movie-orbit",
     demo: "https://movie-orbit.vercel.app/",
     image: require(".//../../public/projects/movieorbit.png"),
-    available: true,
-  },
-  {
-    id: 2,
-    name: "Gitstatz",
-    description:
-      "An online platform offering detailed insights into GitHub profiles. It features a user-friendly design with an inviting landing page and a dedicated analysis section for exploring detailed metrics.",
-    technologies: ["HTML", "CSS", "TailwindCSS","Javascript"],
-    github: "https://github.com/rohitmore07/gitstatz",
-    demo: "https://gitstatz.vercel.app/",
-    image: require(".//../../public/projects/gitstatz.png"),
     available: true,
   },
   {

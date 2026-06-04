@@ -29,7 +29,6 @@ const Qualifications = () => {
                   2021-2024
                 </time>
                 <h3 className="text-lg font-semibold text-white">B. Tech Computer Science (AI)</h3>
-                <p className="text-base font-normal text-white">Final Year</p>
                 <p className="text-base font-normal text-white">G. H. Raisoni Institute of Engineering, Jalgaon.</p>
               </li>
             </ol>
@@ -53,7 +52,7 @@ const Qualifications = () => {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Aug-2023 to Nov-2023
                 </time>
-                <h3 className="text-lg font-semibold text-white">ReactJS Intern</h3>
+                <h3 className="text-lg font-semibold text-white">Project Intern</h3>
                 <p className="text-white font-semibold">( LTIMindtree )</p>
                 <p className="text-base font-normal text-gray-300">
                   • Played a key role in developing web applications using HTML, CSS and JavaScript, with a primary focus on ReactJS.
