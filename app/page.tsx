@@ -4,7 +4,7 @@ import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
-import { initialBlobityOptions } from "./utils/BlobityConfig";
+import { initialBlobityOptions, blobityInvertPaint } from "./utils/BlobityConfig";
 import NavBar from "./navbar/NavBar";
 import dynamic from "next/dynamic";
 import Qualifications from "./qualifications/Qualifications";
@@ -21,6 +21,8 @@ export default function Home() {
     if (blobityInstance.current) {
       // @ts-ignore for debugging purposes or playing around
       window.blobity = blobityInstance.current;
+      // @ts-ignore tint the inverted blob so it reads as #BBD0F4 instead of white/grey
+      blobityInstance.current.color = blobityInvertPaint;
     }
   }, [blobityInstance]);
 

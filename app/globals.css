@@ -37,3 +37,13 @@ body {
 body {
   overflow-y: hidden;
 }
+
+/* The coffee cup (see app/utils/CoffeeCursor.tsx) replaces the system pointer
+   on devices with a real mouse. */
+@media (hover: hover) and (pointer: fine) {
+  html,
+  body,
+  * {
+    cursor: none !important;
+  }
+}

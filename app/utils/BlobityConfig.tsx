@@ -13,7 +13,14 @@ export const initialBlobityOptions = {
     opacity: 1,
     fontColor: "#0e1016",
     zIndex: 100,
-    size: 30,
+    size: 0, // idle blob hidden: the coffee cup is the pointer. Hover morphing still works.
     radius: 4,
     magnetic: true,
-  }  
+  }
+
+// Blobity paints its inverted blob white and blends it with `difference`, so the
+// visible colour is |page - paint|. To get #BBD0F4 on the site's dark background
+// (~#0E1016) the paint colour has to be that background + #BBD0F4 (clamped to 255).
+// Applied in page.tsx right after Blobity is created. Everything else (invert,
+// opacity, magnetic morphing, ...) is unchanged.
+export const blobityInvertPaint = { r: 201, g: 224, b: 255 };
