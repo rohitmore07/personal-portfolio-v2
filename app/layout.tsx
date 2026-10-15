@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CREATRO",
     description:
-      "Frontend Engineer and UI/UX Designer. Focused on interfaces and experiences, working remotely from India.",
+      "Full-Stack Engineer · Applied AI, working remotely from India.",
     url: "https://creatro.vercel.app/",
     siteName: "https://creatro.vercel.app/",
     images: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         url: "https://github.com/rohitmore07/personal-portfolio-v2/blob/bfed58f1f87a9b74bbb80a8b15ed0eff3f88c53c/public/preview.png",
         width: 1200,
         height: 630,
-        alt: "Rohit More — Frontend Engineer",
+        alt: "Rohit More — Full-Stack Engineer · Applied AI",
       },
     ],
     locale: "en-US",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rohit More — Frontend Engineer",
+    title: "Rohit More — Full-Stack Engineer · Applied AI",
     description:
       "Frontend Developer and UI/UX Designer. Focused on interfaces and experiences, working remotely from India",
     creator: "rohittmore",

@@ -12,6 +12,17 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "CVDecode",
+    description:
+      "An AI-powered resume analysis platform that evaluates resumes to deliver ATS compatibility checks, detailed scoring, actionable feedback and tailored career insights.",
+    technologies: ["Typescript","Bun","Express","PostgreSQL","Prisma","Redis","BullMQ","Clerk","Gemini API"],
+    github: "https://github.com/rohitmore07/CVDecode",
+    demo: "https://cvdecode.vercel.app/",
+    image: require(".//../../public/projects/cvdecode.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "InsightIQ",
     description:
       "A modern SaaS admin dashboard featuring authentication, user management, analytics and role-based access control.",
@@ -22,7 +33,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+    id: 2,
     name: "Velura UI",
     description:
       "Velura UI is a sleek, responsive UI library with customizable components for building modern web applications.",
@@ -33,7 +44,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "Movie Orbit",
     description:
       "Movie Orbit is a web application that lets users explore upcoming movies, trending movies and movies by genre.",
@@ -43,84 +54,6 @@ export const devProjects = [
     image: require(".//../../public/projects/movieorbit.png"),
     available: true,
   },
-  {
-    id: 3,
-    name: "Image Quarry",
-    description:
-      "Image Quarry is a React app that uses the Unsplash API to let users search for images. It displays matching photos in a four-column grid layout based on the entered search term.",
-    technologies: ["React", "Semantic UI", "Unsplash API"],
-    github: "https://github.com/rohitmore07/image-quarry",
-    demo: "https://image-quarry.vercel.app/",
-    image: require(".//../../public/projects/imagequarry.png"),
-    available: true,
-  },
-  // {
-  // id: 4,
-  // name: "Flixify",
-  // description:
-  // "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
-  // technologies: ["Next.js", "Typescript", "Prisma"],
-  // github: "https://github.com/victorcodess/flixify",
-  // demo: "https://flixify.victorwilliams.me/",
-  // image: require(".//../../public/projects/flixify.png"),
-  //  available: true,
-  //},
-  // {
-  //   id: 4,
-  //   name: "SkyWatch",
-  //   description:
-  //     "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current weather and forecast for the next 2 days in any city.",
-  //   technologies: ["React", "CSS", "Chart.js"],
-  //   github: "https://github.com/victorcodess/weather-forecast-website",
-  //   demo: "https://sky-watch.vercel.app/",
-  //   image: require(".//../../public/projects/skywatch-flip.png"),
-  //   available: true,
-  // },
-  // {
-  //   id: 4,
-  //   name: "Alpaca Image Generator",
-  //   description:
-  //     "An image generator website that allows users to generate, combine, and download images.",
-  //   technologies: ["React", "CSS", "Merge Images"],
-  //   github: "https://github.com/victorcodess/alpaca-image-generator",
-  //   demo: "http://alpaca-image-generator-beta.vercel.app",
-  //   image: require(".//../../public/projects/alpaca-flip.png"),
-  //   available: true,
-  // },
-
-  // {
-  //   id: 5,
-  //   name: "Link Shortener",
-  //   description:
-  //     "A website that reduces the length of your URL using Bit.ly's API",
-  //   technologies: ["JavaScript", "CSS", "Bit.ly's API"],
-  //   github: "https://github.com/victorcodess/url-shortener",
-  //   demo: "https://url-shortener-nine-delta.vercel.app",
-  //   image: require(".//../../public/projects/shortener-new.webp"),
-  //   available: true,
-  // },
-  // {
-  //   id: 6,
-  //   name: "Carpooling Service",
-  //   description:
-  //     "TMTM helps Covenant University students find fellow students who are headed to the same location, so they can share a ride and split the cost.",
-  //   technologies: ["Material UI", "React", "Formik"],
-  //   github: "https://github.com/victorcodess/carpooling-service",
-  //   demo: "",
-  //   image: require(".//../../public/projects/carpool-new.webp"),
-  //   available: false,
-  // },
-  // {
-  //   id: 7,
-  //   name: "MLSC.ng",
-  //   description:
-  //     "This is platform for Microsoft Learn Student Ambassadors to shorten links, append their sharing IDs and generate event certificates.",
-  //   technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
-  //   github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
-  //   demo: "",
-  //   image: require(".//../../public/projects/mlsc.png"),
-  //   available: false,
-  // },
 ];
 
 export const designProjects = [

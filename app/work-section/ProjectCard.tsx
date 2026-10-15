@@ -18,6 +18,8 @@ const ProjectCard = ({
   image,
   available,
 }: ProjectProps) => {
+  const isEven = id % 2 === 0;
+
   return (
     <motion.div
       style={
@@ -29,19 +31,23 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[650px] md:w-[100%] lg:h-[500px]`}
+      // Below lg: a normal stacked card (buttons, text, screenshot) that grows with its content.
+      // From lg up: the original fixed-height card with absolutely positioned children.
+      className="relative z-10 flex w-full flex-col overflow-hidden rounded-3xl px-6 pt-6 sm:px-8 sm:pt-8 lg:block lg:h-[520px] lg:p-0"
       initial="initial"
       animate="animate"
     >
       <Image
         src={image}
         alt={name}
-        className={`absolute -bottom-2 w-[70%] sm:w-[85%] md:w-[60%] lg:max-w-[55%] ${id % 2 === 0 ? "right-0" : "left-0"
-          }`}
+        className={`order-3 -mb-2 mt-8 h-auto w-full max-w-[640px] self-center rounded-t-xl lg:absolute lg:-bottom-2 lg:mb-0 lg:mt-0 lg:w-[55%] lg:max-w-none lg:rounded-none ${
+          isEven ? "lg:right-0" : "lg:left-0"
+        }`}
       />
       <div
-        className={`absolute top-0 text-[#0E1016] ${id % 2 === 0 ? "left-0 ml-8 lg:ml-14" : "right-0 mr-8 lg:mr-14"
-          } mt-6 flex  items-center justify-center gap-4 lg:mt-10`}
+        className={`order-1 flex items-center gap-4 text-[#0E1016] lg:absolute lg:top-0 lg:mt-10 lg:justify-center ${
+          isEven ? "lg:left-0 lg:ml-14" : "lg:right-0 lg:mr-14"
+        }`}
       >
         {available ? (
           <>
@@ -69,7 +75,7 @@ const ProjectCard = ({
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
                 data-blobity-offset-y="4"
-                data-blobity-magnetic="trues"
+                data-blobity-magnetic="true"
               />
             </Link>
           </>
@@ -100,15 +106,14 @@ const ProjectCard = ({
         )}
       </div>
       <div
-        className={`absolute text-white  ${!(id % 2 === 0)
-            ? "right-0 top-32 mr-0 ml-10 md:right-0 md:ml-0 lg:right-0 lg:top-60  lg:mr-4"
-            : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
-          } mb-10  md:mb-16 lg:mb-14 `}
+        className={`order-2 mt-6 text-white sm:mt-8 lg:absolute lg:top-52 lg:mt-0 lg:max-w-[40%] ${
+          isEven ? "lg:left-10 lg:ml-4" : "lg:right-0 lg:mr-4"
+        }`}
       >
         <AnimatedTitle
           text={name}
           className={
-            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none"
+            "max-w-full text-[34px] leading-none text-white sm:text-[40px] md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none"
           }
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
@@ -116,22 +121,17 @@ const ProjectCard = ({
         <AnimatedBody
           text={description}
           className={
-            "mt-4 w-[90%] max-w-[457px] text-[16px] font-semibold text-[#95979D] "
+            "mt-4 w-full max-w-[457px] text-[15px] font-semibold text-[#95979D] sm:text-[16px]"
           }
         />
-        <div className="mt-9 flex flex-wrap gap-x-4 gap-y-0">
-          {technologies.map((tech, id) => (
-            <div
-              key={id}
-              className={tech === "Redux Toolkit" ? "basis-full" : ""}
-            >
+        <div className="mt-5 flex flex-wrap gap-x-4 gap-y-0 sm:mt-6 sm:gap-y-1">
+          {technologies.map((tech, index) => (
+            <div key={index}>
               <AnimatedTitle
                 text={tech}
-                wordSpace={"mr-[0.25em]"}
-                charSpace={"mr-[0.01em]"}
-                className={
-                  "text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px]"
-                }
+                wordSpace="mr-[0.25em]"
+                charSpace="mr-[0.01em]"
+                className="whitespace-nowrap text-[13px] font-bold uppercase leading-normal sm:text-[14px] md:text-[16px] lg:text-[18px] lg:leading-[inherit]"
               />
             </div>
           ))}
