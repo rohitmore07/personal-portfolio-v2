@@ -2,7 +2,7 @@ export type ProjectProps = {
   id: number;
   name: string;
   description: string;
-  technologies: string[];
+  technologies: string[]; 
   github: string;
   demo: string;
   image: string;
@@ -12,6 +12,28 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "Orgwise",
+    description:
+      "An enterprise workforce intelligence platform with headcount, attrition, engagement, hiring analytics and org charts. Includes employee management, validated CSV imports, executive reports and role-based access control.",
+    technologies: ["Next.js","TypeScript","Recharts","NestJS","Prisma","Tailwind CSS","PostgreSQL","Neon Auth","Groq"],
+    github: "https://github.com/rohitmore07/orgwise",
+    demo: "https://orgwisee.vercel.app/",
+    image: require(".//../../public/projects/orgwise.png"),
+    available: true,
+  },
+  {
+    id: 1,
+    name: "PRSNCLink",
+    description:
+      "Digital identity platform for creating personalized professional profiles and shareable digital business cards with instant publishing, QR code sharing and PNG export.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Drizzle ORM", "Neon", "OAuth", "Gemini AI"],
+    github: "https://github.com/rohitmore07/PRSNC",
+    demo: "https://prsnclink.vercel.app/",
+    image: require(".//../../public/projects/prsnclink.png"),
+    available: true,
+  },
+  {
+    id: 2,
     name: "CVDecode",
     description:
       "An AI-powered resume analysis platform that evaluates resumes to deliver ATS compatibility checks, detailed scoring, actionable feedback and tailored career insights.",
@@ -22,7 +44,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+    id: 3,
     name: "InsightIQ",
     description:
       "A modern SaaS admin dashboard featuring authentication, user management, analytics and role-based access control.",
@@ -32,28 +54,7 @@ export const devProjects = [
     image: require(".//../../public/projects/insightiq.png"),
     available: true,
   },
-  {
-    id: 2,
-    name: "Velura UI",
-    description:
-      "Velura UI is a sleek, responsive UI library with customizable components for building modern web applications.",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/rohitmore07/velura-ui",
-    demo: "https://velura-ui.vercel.app/",
-    image: require(".//../../public/projects/velura.png"),
-    available: true,
-  },
-  {
-    id: 3,
-    name: "Movie Orbit",
-    description:
-      "Movie Orbit is a web application that lets users explore upcoming movies, trending movies and movies by genre.",
-    technologies: ["React", "Tailwind CSS", "TMDB API"],
-    github: "https://github.com/rohitmore07/movie-orbit",
-    demo: "https://movie-orbit.vercel.app/",
-    image: require(".//../../public/projects/movieorbit.png"),
-    available: true,
-  },
+  
 ];
 
 export const designProjects = [
