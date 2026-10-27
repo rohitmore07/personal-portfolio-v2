@@ -81,7 +81,7 @@ const Hero = () => {
               className="mt-1 max-w-[300px] text-[15px] font-medium leading-relaxed text-[#BBD0F5] sm:mt-0 sm:max-w-[360px] sm:text-left sm:text-[15px] md:max-w-[480px] md:text-[18px] lg:max-w-[700px] lg:text-[20px]"
               variants={imageAnimation}
             >
-              I'm a software engineer driven by the pursuit of elegant solutions to complex problems. I build scalable systems across the full stack and I'm particularly interested in how artificial intelligence can give products genuine intelligence.
+              I&apos;m a software engineer driven by the pursuit of elegant solutions to complex problems. I build scalable systems across the full stack and I&apos;m particularly interested in how artificial intelligence can give products genuine intelligence.
             </motion.p>
           </div>
         </div>
