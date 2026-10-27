@@ -17,19 +17,21 @@ const Hero = () => {
       <motion.div className="absolute inset-0 h-full w-full bg-[#0E1016] mix-blend-color"></motion.div>
 
       {/* Top navigation */}
-      <div className="absolute inset-x-0 top-6 flex items-center justify-between px-5 sm:top-10 sm:mx-auto sm:w-[90%] sm:px-0 lg:max-w-[1440px]">
+      <div className="absolute inset-x-0 top-6 z-20 flex items-center justify-between px-5 sm:top-10 sm:mx-auto sm:w-[90%] sm:px-0 lg:max-w-[1440px]">
         <div>
           <Link
             href="https://calendly.com/cserohitmore"
             target="_blank"
             aria-label="BOOK A CALL"
+            data-blobity
+            className="inline-block cursor-pointer"
           >
-            <motion.button
+            <motion.span
               className="hidden rounded-md border-2 border-[#BBD0F5] px-4 py-2 text-[14px] font-semibold text-[#BBD0F5] sm:block md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
               BOOK A CALL
-            </motion.button>
+            </motion.span>
           </Link>
         </div>
 
@@ -38,9 +40,16 @@ const Hero = () => {
             { name: "Github", link: "https://github.com/rohitmore07" },
             { name: "Linkedin", link: "https://www.linkedin.com/in/rohitmore07/" },
             { name: "Twitter", link: "https://twitter.com/rohittmore" },
-            { name: "Behance", link: "https://behance.net/rohitmore07" },
+            { name: "Hashnode", link: "https://hashnode.com/@rohitmore07" },
           ].map((item, index) => (
-            <Link key={index} href={item.link} target="_blank" aria-label={`View ${item.name} Profile`}>
+            <Link
+              key={index}
+              href={item.link}
+              target="_blank"
+              aria-label={`View ${item.name} Profile`}
+              data-blobity
+              className="inline-block cursor-pointer"
+            >
               <motion.p className="text-[13px] font-bold text-[#BBD0F5] sm:text-[16px]" variants={bodyAnimation}>
                 {item.name}
               </motion.p>
@@ -72,7 +81,7 @@ const Hero = () => {
               className="mt-1 max-w-[300px] text-[15px] font-medium leading-relaxed text-[#BBD0F5] sm:mt-0 sm:max-w-[360px] sm:text-left sm:text-[15px] md:max-w-[480px] md:text-[18px] lg:max-w-[700px] lg:text-[20px]"
               variants={imageAnimation}
             >
-              I’m a software engineer driven by the pursuit of elegant solutions to complex problems. I build scalable systems across the full stack and I’m particularly interested in how artificial intelligence can give products genuine intelligence.
+              I'm a software engineer driven by the pursuit of elegant solutions to complex problems. I build scalable systems across the full stack and I'm particularly interested in how artificial intelligence can give products genuine intelligence.
             </motion.p>
           </div>
         </div>
